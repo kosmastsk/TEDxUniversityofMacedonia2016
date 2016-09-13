@@ -420,6 +420,7 @@ height: 100%;
 
 .polylion {
   height: 800px;
+    
 }
 .no-cssanimations .polylion > polygon {
   -webkit-transform: scale(1);

@@ -77,7 +77,7 @@
   <body>
 
    <!--LOADING ANIMATION -->
-    <!--<style>
+    <style>
     html{
         overflow: hidden;
         height: 100%;
@@ -91,7 +91,7 @@
 
     <div class="loading">
       <embed class="center" src="images/loadingtest.svg"/>
-    </div>   --> 
+    </div>    
 
     <style>/*Change the mobile and desktop menu in specific pixels */
       @media (max-width: 907px){
@@ -1754,14 +1754,16 @@ TweenLite.to("#_x31_", 2, {y:200});
       <script>
     if (true){
   $('#allbtn').trigger('click');
-}</script>
+    }</script>
   <div id="partners">
 
     <!--use the image as a button to appear the hidden div-->
     <script type="text/javascript">
       function hiddenPartners() {
         $("#hidden-partners").toggle();
+           $('#allbtn').trigger('click');
       }
+       
     </script>
     <a href="javascript:hiddenPartners();">
       <img id="bg" src="images/7.Partners.svg" class="img-responsive center-block hidden-sm hidden-md hidden-lg" alt="partners">
@@ -1777,14 +1779,14 @@ TweenLite.to("#_x31_", 2, {y:200});
     <!--this div appears on click of #more button and hides on the next click-->
     <div id="hidden-partners">
 
-    <<div class="row">
+    <div class="row">
         <div class="col-sm-12">
           <h1 class="title hidden-xs">Partners</h1>
           <span class="tba">to be announced..</span>
         </div>
     </div>
 
-      <<div class="row">
+      <div class="row">
         <div class="col-sm-12">
           <h1 class="title hidden-xs">Partners</h1>
         </div>
@@ -1995,6 +1997,7 @@ TweenLite.to("#_x31_", 2, {y:200});
 
   </div> <!-- / #partners -->
 
+            
 
   <!-- TEAM SECTION ######################################################3-->
   <div id="team" >
