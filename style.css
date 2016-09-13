@@ -334,7 +334,15 @@ position: relative;
   margin: 2px solid red;
 }
 #aboutsmmdlg{
-  background-color: #ede0dc;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 90%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(90%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 90%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 90%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 90%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 90%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    padding-bottom: 3%;
 }
 
 
@@ -1331,6 +1339,7 @@ h2.theme{
     background-repeat:round;
     max-width: 100%;
     width: 100%;   
+       background-size: contain;
    
 }
   }
@@ -1364,12 +1373,15 @@ h1.teamz{
 #page-2{
   background-image: none;
   background-size: cover;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdce2+0,f5f6f6+0,000000+100,272828+100,f5f6f6+100 */
-  background: rgb(219,220,226); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(219,220,226,1) 0%, rgba(245,246,246,1) 0%, rgba(0,0,0,1) 100%, rgba(39,40,40,1) 100%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(219,220,226,1) 0%,rgba(245,246,246,1) 0%,rgba(0,0,0,1) 100%,rgba(39,40,40,1) 100%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(219,220,226,1) 0%,rgba(245,246,246,1) 0%,rgba(0,0,0,1) 100%,rgba(39,40,40,1) 100%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdce2', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+  
+  background: rgba(117,117,117,1);
+background: -moz-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(117,117,117,1) 26%, rgba(28,28,28,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,117,117,1)), color-stop(26%, rgba(117,117,117,1)), color-stop(100%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(117,117,117,1) 26%, rgba(28,28,28,1) 100%);
+background: -o-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(117,117,117,1) 26%, rgba(28,28,28,1) 100%);
+background: -ms-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(117,117,117,1) 26%, rgba(28,28,28,1) 100%);
+background: linear-gradient(to bottom, rgba(117,117,117,1) 0%, rgba(117,117,117,1) 26%, rgba(28,28,28,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#1c1c1c', GradientType=0 );
 }
 .thumb{
     visibility: visible !important;
@@ -1520,7 +1532,7 @@ h1.teamz{
   font-family: Arial;
   color: #000;
   font-size: 20px;
-  background: rgb(219,220,226); /* Old browsers */
+  background: rgba(219,220,226,0.9); /* Old browsers */
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -2077,4 +2089,38 @@ font-size: 0.75em;
 .ourlogofooter{
   position: relative;
   width: 50%;
+}
+
+#rightTheme{
+    padding-top: 3%;
+}
+@media (min-width: 1700px){
+ #rightTheme{
+    padding-top: 3%;
+     left: -5%; 
+}
+}
+@media (min-width: 865px){
+.svgani{
+    margin-bottom: -10%;
+    position: relative;
+    
+    
+}
+.fix{
+ margin-top: -3% !important;
+}
+}
+@media (max-width: 865px){
+ .svgani{
+    margin-bottom: -5%;
+    position: relative;
+padding-left: 35%;
+     
+     
+     
+}
+.fix{
+ margin-top: -3% !important;
+}
 }

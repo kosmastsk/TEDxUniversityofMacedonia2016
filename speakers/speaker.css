@@ -3,6 +3,7 @@
   height: auto !important;
   height: 100%;
   margin: 0 auto 0em;
+    padding: 0 !important;
 }
 .footer, .push {
    height: 0em;
@@ -51,4 +52,20 @@
 }
 .social-speakers a:hover{
 	color:#5d2d7a;
+}
+
+#panw{
+    height:70vh !important;
+}
+
+
+@media (max-width: 961px){
+#per{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+    .tab-pane{
+	padding-top:15%;
+	font-family: 'Lato', sans-serif ;
+}
 }
