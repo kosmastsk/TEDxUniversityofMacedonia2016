@@ -265,7 +265,7 @@ body span{
   height: 40vh;
   position: absolute;
   bottom: 0;
-  width: 65%;
+  width: 50%;
 }
 .where{
 position: relative;
@@ -1436,9 +1436,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   padding:0;
   width: 100%;
 }
+
 @media (min-width: 1800px){
 .job{
-  
   margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
   font-size: 1.1em;
@@ -1453,8 +1453,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   left: 50%;
   /* bring your own prefixes */
  transform: translate(-50%, -50%);
+  }
 }
-}
+
 @media (min-width: 1200px){
     .job{
         margin:0 auto;
@@ -1472,8 +1473,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   /* bring your own prefixes */
  transform: translate(-50%, -50%);
     }
-  }
-@media (max-width:1200px){
+}/*
+@media (min-width:769px){
     .job{
         margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
@@ -1490,7 +1491,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   /* bring your own prefixes */
  transform: translate(-50%, -50%);
     }
+}*/
+
+@media (max-width: 768px){
+  .job{
+    margin:0 auto;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.45em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  padding-top: 0%;
+  word-wrap: break-word; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  }
 }
+
+
 
 .social-team{
   background-color: transparent;
