@@ -366,9 +366,8 @@ map-container {
 }
 #prwto{
 position: relative;
-background-image: url(images/3822.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+background-image: url(images/cork-wallet.png);
+    background-repeat: repeat-x repeat-y;
     background-position: center;
 }
 
