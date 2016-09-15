@@ -1324,11 +1324,12 @@ h2.theme{
 
     /* Create the parallax scrolling effect */
     background-attachment:fixed;
+    
     background-position: 50% 0%;
     background-repeat:no-repeat;
     max-width: 100%;
     width: 100%;   
-    background-size:cover
+    background-size:cover;
     
    
 }
@@ -1344,10 +1345,11 @@ h2.theme{
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 50% 0%;
-    background-repeat:round;
-    max-width: 100%;
-    width: 100%;   
-       background-size: contain;
+    background-repeat:no-repeat;
+       
+ 
+       
+       background-size: cover;
    
 }
   }
@@ -1417,10 +1419,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   width:100%;
   height:100%;
   z-index:100;
-}
+}/*
 #page-2::-webkit-scrollbar { 
     display: none; 
-}
+}*/
 /*
 .overflow{
   overflow: hidden;
