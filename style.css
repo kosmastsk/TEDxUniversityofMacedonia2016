@@ -366,11 +366,10 @@ map-container {
 }
 #prwto{
 position: relative;
-background-image: url(images/cork-wallet.png);
-    background-repeat: repeat;
-
-
-z-index: auto;
+background-image: url(images/3822.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .speakk{
@@ -1596,7 +1595,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   position: fixed;
   z-index: 10;
   left:0;
-  bottom: 0;
+  top: 90vh;
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
@@ -2152,7 +2151,7 @@ font-size: 0.75em;
 
 .ourlogo{
   position: absolute;
-  right: 0;
+  right: 37%;
   bottom: 0;
   width: 25%;
   height: auto;
