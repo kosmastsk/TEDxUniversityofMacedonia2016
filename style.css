@@ -369,6 +369,7 @@ position: relative;
 background-image: url(images/cork-wallet.png);
     background-repeat: repeat-x repeat-y;
     background-position: center;
+    overflow: hidden;
 }
 
 .speakk{
@@ -2150,16 +2151,29 @@ font-size: 0.75em;
 
 .ourlogo{
   position: absolute;
-  right: 37%;
+  left: 0%;
   bottom: 0;
-  width: 25%;
+  width: 22.5%;
   height: auto;
+    
 }
+.ourlogo2{
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  width: 15%;
+  height: auto;
+    
+}
+
+
 
 .ourlogofooter{
   position: relative;
   width: 50%;
 }
+
+
 
 #rightTheme{
     padding-top: 3%;
