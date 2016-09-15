@@ -1574,7 +1574,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 .ted-text:hover{
   color:#e62b1e;
 }
-
+#fixedtext{
+  position: fixed;
+  top: 2%;
+  left: 5%;
+  font-weight: bold;
+  z-index: 5;
+}
 #fixedbtn{
   position: fixed;
   z-index: 10;
@@ -1605,6 +1611,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   background: rgba(219,220,226,0.9); /* Old browsers */
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+#fixedtext{
+  position: fixed;
+  z-index: 10;
+  left:5%;
+  top: 92vh;
 }
 }
 
