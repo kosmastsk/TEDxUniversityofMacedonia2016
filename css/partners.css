@@ -20,3 +20,19 @@
 .grid{padding-bottom:2%;}
 .element-item{padding:1%;}
 .element-item img{max-width:100%;max-height:100%;margin-top:0;}
+
+@media(max-width: 986px){
+  .button-group{
+    padding-left: 0%;
+  }
+}
+@media(min-width: 987px){
+  .button-group{
+    padding-left: 5%;
+  }
+}
+@media(min-width: 1200px){
+  .button-group{
+    padding-left: 9%;
+  }
+}
