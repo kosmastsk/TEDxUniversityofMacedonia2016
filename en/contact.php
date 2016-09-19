@@ -12,7 +12,7 @@ if(!$captcha){
 	echo "<script type='text/javascript'>alert('$fail');window.location = 'http://www.tedxuniversityofmacedonia.com';</script>";
 }
 
-require 'phpmailer/PHPMailerAutoload.php';
+require '../phpmailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
