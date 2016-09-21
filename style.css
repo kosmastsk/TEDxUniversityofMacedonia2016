@@ -1520,36 +1520,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   /* bring your own prefixes */
  transform: translate(-50%, -50%);
     }
-}/*
-@media (min-width:769px){
-    .job{
-        margin:0 auto;
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 1.4vw;
-  font-weight: 400;
-  text-align: center;
-  color: #fff;
-  height: 100%;
-  padding-top: 22%;
-  word-wrap: break-word; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
- transform: translate(-50%, -50%);
-    }
-}*/
+}
 
-@media (max-width: 768px){
+@media (max-width: 400px){
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.45em;
+  font-size: 0.55em;
   font-weight: 400;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 0%;
+  padding-top: 5%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1558,7 +1540,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
  transform: translate(-50%, -50%);
   }
 }
-
+@media (min-width: 401px){
+  .job{
+    margin:0 auto;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.75em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  padding-top: 5%;
+  word-wrap: break-word; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  }
+}
 
 
 .social-team{
