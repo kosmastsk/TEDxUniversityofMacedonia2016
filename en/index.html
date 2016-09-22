@@ -4847,6 +4847,19 @@ TweenLite.to("#_x31_", 2, {y:200});
  }, 1); //100ms for example
 }
     </script> 
+        <script type="text/javascript">
+          $('.speakfig').on('mouseover', function(e){
+            var colors = ["#5d2d7a", "#d62247", "#00a79d"];
+          var random_color = colors[Math.floor(Math.random() * colors.length)];
+          $(".speakfig").css("background-color", random_color);
+          });
+          
+          $('.speakfig').on('mouseout', function(e){
+            var colors = ["#5d2d7a", "#d62247", "#00a79d"];
+          var random_color = colors[Math.floor(Math.random() * colors.length)];
+          $(".speakfig").css("background-color", random_color);
+          });
+        </script>
  <script src="../js/foo.js"></script>
   </body>
 </html>
