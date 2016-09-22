@@ -1521,16 +1521,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
  transform: translate(-50%, -50%);
   }
 }
+@media (min-width: 900px){
+  .job{
+    margin:0 auto;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.75em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  padding-top: 13%;
+  word-wrap: break-word; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  }
+}
 @media (min-width: 1200px){
     .job{
         margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 1vw;
+  font-size: 0.7em;
   font-weight: 300;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 18%;
+  padding-top: 10%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
