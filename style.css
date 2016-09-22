@@ -1484,16 +1484,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   width: 100%;
 }
 
-@media (min-width: 1800px){
-.job{
-  margin:0 auto;
+@media (max-width: 400px){
+  .job{
+    margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 1.1em;
-  font-weight: 300;
+  font-size: 0.55em;
+  font-weight: 400;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 22%;
+  padding-top: 5%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1503,6 +1503,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   }
 }
 
+@media (min-width: 401px){
+  .job{
+    margin:0 auto;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.75em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  padding-top: 5%;
+  word-wrap: break-word; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  }
+}
 @media (min-width: 1200px){
     .job{
         margin:0 auto;
@@ -1522,16 +1540,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
     }
 }
 
-@media (max-width: 400px){
-  .job{
-    margin:0 auto;
+@media (min-width: 1800px){
+.job{
+  margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.55em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 5%;
+  padding-top: 22%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1540,24 +1558,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
  transform: translate(-50%, -50%);
   }
 }
-@media (min-width: 401px){
-  .job{
-    margin:0 auto;
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 0.75em;
-  font-weight: 400;
-  text-align: center;
-  color: #fff;
-  height: 100%;
-  padding-top: 5%;
-  word-wrap: break-word; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
- transform: translate(-50%, -50%);
-  }
-}
+
+
+
 
 
 .social-team{
