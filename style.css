@@ -1489,12 +1489,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.55em;
+  font-size: 0.50em;
   font-weight: 400;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 5%;
+  padding-top: 0%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1508,12 +1508,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.75em;
+  font-size: 0.65em;
   font-weight: 400;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 5%;
+  padding-top: 0%;
+  word-wrap: break-word; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 800px){
+  .job{
+    margin:0 auto;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.55em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  padding-top: 1%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1526,12 +1544,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.75em;
+  font-size: 0.70em;
   font-weight: 400;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 13%;
+  padding-top: 1%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
@@ -1544,14 +1562,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
     .job{
         margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 0.7em;
+  font-size: 0.64em;
   font-weight: 300;
   text-align: center;
   color: #fff;
-  height: 100%;
-  padding-top: 10%;
+  max-height: 100%;
+  padding-top: 4%;
   word-wrap: break-word; 
   position: absolute;
+  white-space: pre-wrap;
   top: 50%;
   left: 50%;
   /* bring your own prefixes */
@@ -1563,12 +1582,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 .job{
   margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 300;
   text-align: center;
   color: #fff;
   height: 100%;
-  padding-top: 22%;
+  padding-top: 18%;
   word-wrap: break-word; 
   position: absolute;
   top: 50%;
