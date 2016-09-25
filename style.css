@@ -134,7 +134,7 @@ body span{
   font-size: 1em;
   text-align: center;
   cursor: pointer;
-  font-color:#00a79d;
+  color:#00a79d;
 }
 
 .loading-icon::before {
