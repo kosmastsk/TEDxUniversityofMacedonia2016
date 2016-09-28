@@ -80,3 +80,6 @@
 footer{
 	background-color: #ffffff;
 }
+p{
+	max-width: 85%;
+}
