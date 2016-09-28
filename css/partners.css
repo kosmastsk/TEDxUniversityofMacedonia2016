@@ -25,6 +25,6 @@
 .button-group .button:last-child{border-radius:7px;}
 .grid:after{}
 .grid{padding-bottom:2%;}
-.element-item{padding:1%;-webkit-filter: grayscale(100%) brightness(110%); /* Chrome, Safari, Opera */filter: grayscale(100%) brightness(110%);}
-.element-item:hover{-webkit-filter: grayscale(0) brightness(100%); /* Chrome, Safari, Opera */filter: grayscale(0) brightness(100%);}
+.element-item{padding:1%;}
+.element-item:hover{-webkit-filter: contrast(200%); /* Chrome, Safari, Opera */filter: contrast(200%);-webkit-filter: blur(4px);filter: blur(4px);}
 .element-item img{max-width:100%;max-height:100%;margin-top:0;}
