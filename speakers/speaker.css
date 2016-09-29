@@ -41,14 +41,23 @@
 	border-bottom: 2px solid #5d2d7a;
 }
 .tab-pane{
-	padding-top:8%;
+	padding-top:11%;
 	font-family: 'Lato', sans-serif ;
+}
+@media (max-width: 360px){
+	#why{
+		padding-top: 35%;
+	}
+	#aboutsp{
+		padding-top: 35%;
+	}
 }
 .nav.nav-tabs{
 	float: left;
 	font-family: 'Lato', sans-serif ;
 	position: absolute;
 	left:0%;
+	padding-top: 3%;
 }
 .social-speakers{
 	text-align: center;
