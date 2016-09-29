@@ -1481,30 +1481,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   position: relative;
   left: 2%;
   top: 10%;
-
   width: 100%;
 }
 
-@media (max-width: 400px){
-  .job{
+@media (max-width: 660px){
+  .speakfig:before{
+    content: "+";
     margin:0 auto;
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 0.50em;
-  font-weight: 400;
-  text-align: center;
-  color: #fff;
-  height: 100%;
-  padding-top: 0%;
-  word-wrap: break-word; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
- transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    padding-top: 4%;
+    word-wrap: break-word; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  .job{
+    display: none;
   }
 }
 
-@media (min-width: 401px){
+@media (min-width: 661px){
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
