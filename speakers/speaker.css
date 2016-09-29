@@ -80,6 +80,8 @@
 footer{
 	background-color: #ffffff;
 }
-p{
-	max-width: 85%;
+@media (min-width: 768px){	
+	p{
+		max-width: 85%;
+	}
 }
