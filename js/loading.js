@@ -1,1 +1,0 @@
-$(window).load(function(){$(".loading").fadeOut(2000);$('html, body').css({'overflow':'auto','height':'auto'});$('#allbtn').trigger('click');});
