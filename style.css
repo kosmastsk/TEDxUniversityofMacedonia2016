@@ -1485,8 +1485,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   top: 10%;
   width: 100%;
 }
-
-@media (max-width: 660px){
+@media (max-width: 400px){
   .speakfig:before{
     content: "+";
     margin:0 auto;
@@ -1496,10 +1495,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
     text-align: center;
     color: #fff;
     height: 100%;
-    padding-top: 4%;
     word-wrap: break-word; 
     position: absolute;
-    top: 50%;
+    top:25%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  .job{
+    display: none;
+  }
+}
+@media (min-width: 401px){
+  .speakfig:before{
+    content: "+";
+    margin:0 auto;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    word-wrap: break-word;
+    position: absolute;
+    top:35%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
