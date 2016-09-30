@@ -1485,70 +1485,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   top: 10%;
   width: 100%;
 }
-@media (max-width: 400px){
-  .speakfig:before{
-    content: "+";
-    margin:0 auto;
-    font-family: 'Open Sans', sans-serif; 
+@media (max-width: 768px){
+  .job{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4em;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     color: #fff;
     height: 100%;
     word-wrap: break-word; 
     position: absolute;
-    top:25%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
     overflow: hidden;
-  }
-  .job{
-    display: none;
-  }
-}
-@media (min-width: 401px){
-  .speakfig:before{
-    content: "+";
-    margin:0 auto;
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 5em;
-    font-weight: 600;
-    text-align: center;
-    color: #fff;
-    height: 100%;
-    word-wrap: break-word;
-    position: absolute;
-    top:35%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-  }
-  .job{
-    display: none;
-  }
+   }
 }
 
-@media (min-width: 661px){
-  .job{
-    margin:0 auto;
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 0.65em;
-  font-weight: 400;
-  text-align: center;
-  color: #fff;
-  height: 100%;
-  padding-top: 4%;
-  word-wrap: break-word; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
- transform: translate(-50%, -50%);
-  }
-}
-@media (min-width: 800px){
+@media (min-width: 769px){
   .job{
     margin:0 auto;
   font-family: 'Open Sans', sans-serif; 
