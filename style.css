@@ -106,6 +106,10 @@ body span{
   width: 8%;
   height: auto;
 }
+  #whenwheremob{
+    position: relative;
+    top:-2em;
+  }
 /*
 #clickMe{
   width: 10%;
@@ -2368,10 +2372,7 @@ box-shadow: 7px 7px 100px 10px rgba(93,45,122,1);
 }
 
 @media(max-width: 768px){
-  #whenwheremob{
-    position: relative;
-    top:-2em;
-  }
+
   .ticketbtn {
   z-index: 10;
   position: absolute;
