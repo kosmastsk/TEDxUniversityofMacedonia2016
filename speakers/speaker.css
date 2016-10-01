@@ -51,6 +51,9 @@
 	#aboutsp{
 		padding-top: 35%;
 	}
+	.nav-tabs > li{
+		width:50%;
+	}
 }
 .nav.nav-tabs{
 	float: left;

@@ -1485,7 +1485,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   top: 10%;
   width: 100%;
 }
-@media (max-width: 768px){
+@media (max-width: 360px){
+  .job{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    word-wrap: break-word; 
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+   }
+}
+@media (min-width: 361px){
   .job{
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
