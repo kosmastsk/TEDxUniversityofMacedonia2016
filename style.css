@@ -1485,6 +1485,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   top: 10%;
   width: 100%;
 }
+
 @media (max-width: 360px){
   .job{
     margin: 0 auto;
@@ -1723,6 +1724,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   font-weight: 600;
   color: #000;
   text-align: center;
+}
+@media (min-width:362px) and (max-width:480px){
+  .onelinename{
+      margin-bottom:38%; 
+  }
+}
+@media (max-width: 768px){
+  .speakname{
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  }
 }
 .moreinfo{
   color: #fff;
