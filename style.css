@@ -2490,7 +2490,9 @@ box-shadow: 7px 7px 100px 10px rgba(93,45,122,1);
         padding: 1%;
       }
       .cost{
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-top: 5%;
+        padding-bottom: 5%;
         color:#333;
         padding-top: 1%;
         font-weight: 400;
