@@ -2496,6 +2496,13 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
         font-size: 1.3em;
         text-align: center;
       }
+      @media (max-width: 768px){
+        .start{
+          font-weight: 500;
+          font-size: 0.95em;
+          text-align: center;
+        }
+      }
       .type{
         font-size: 1.8em;
         border-bottom: 1px solid black;
@@ -2530,9 +2537,15 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
         font-weight: 700;
       }
       .details{
-        
+        display: none;
         font-size: 0.7em;
         color:#000;
         font-weight: 400;
-          
+        float:left;
       }  
+      #live:hover .details{
+        display: block;
+      }
+      #livestreaming:hover .details{
+        display: block;
+      }
