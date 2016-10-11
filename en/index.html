@@ -281,7 +281,7 @@
                 <img src="../images/index.png" class="img-responsive center-block" alt="TEDxUniversityofMacedonia" style="width:45%;">
                 <img src="../menu/stable.svg" class="img-responsive center-block" alt="Gravity of Thoughts logo">
                 <h4 id="whenwheremob"> Saturday, 5th of November 2016 - NOESIS </h4>
-                <a href="#tickets">
+                <a href="javascript:ticketsMob()">
                       <div class="button-container">
                         <div class="ticketbtn">
                             <div class="button-text">
@@ -291,6 +291,12 @@
                         <div class="button-outline"></div>
                         </div>
                      </a>
+                     <script type="text/javascript">
+                    function ticketsMob(){
+                         window.location.href = "#tickets";
+                        $("#hidden-tickets").toggle();
+                    }
+                </script>
 
               </div><!-- / Home mobile-->
 
