@@ -109,6 +109,7 @@ body span{
   #whenwheremob{
     position: relative;
     top:-2em;
+    text-align: center;
   }
 /*
 #clickMe{
