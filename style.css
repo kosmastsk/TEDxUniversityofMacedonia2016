@@ -128,15 +128,15 @@ body span{
   vertical-align: middle;
   background: #00a79d;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   position: absolute;
   left:45%;
   top:25%;
-  padding-top: 1%;
+  padding-top: 0.6%;
   opacity: 0.8;
   z-index: 2;
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: center;
   cursor: pointer;
   color:#34495e;
@@ -262,15 +262,15 @@ body span{
 }
 .brain #stable{
   padding-top: 6%;
-  padding-left: 4%;
-  height: 92%;
-  width: 92%;
+  padding-left: 15%;
+  height: 85%;
+  width: 85%;
 }
 .when{
   height: 40vh;
   position: absolute;
   bottom: 0;
-  width: 50%;
+  width: 40%;
 }
 .where{
 position: relative;
@@ -280,7 +280,7 @@ position: relative;
   right: 0;
   margin: auto;
   /*height: 100%;*/
-  padding-top: 5%;
+  padding-top: 1%;
 }
 .counter{
   height:40vh;
@@ -2321,123 +2321,54 @@ font-size: 0.75em;
 .ticketbtn {
   z-index: 10;
   position: absolute;
-  width: 24%;
-  top: 50%;
+  top: 80vh;
   left: 50%;
-  border-radius: 100%;
-  transform: translate(-50%, -50%);
-  background-color: #d62247;
-  opacity: 0.92;
-  cursor: pointer;
-}
-
-.ticketbtn:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-
-.ticketbtn:hover + .button-outline {
-  width: 27%;
-  border: 4px solid #5d2d7a;
-  -webkit-box-shadow: 7px 7px 100px 10px rgba(93,45,122,1);
--moz-box-shadow: 7px 7px 100px 10px rgba(93,45,122,1);
-box-shadow: 7px 7px 100px 10px rgba(93,45,122,1);
-}
-
-.button-outline {
-  position: absolute;
-  width: 15%;
-  top: 50%;
-  left: 50%;
-  border-radius: 100%;
-  transform: translate(-50%, -50%);
-  transition: all 0.25s cubic-bezier(.7, .11, .32, 2);
-}
-
-.button-outline:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-
-.button-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size:1.5em;
-  color: white;
-  width: 85%;
-}
-
-.button-container {
-  position: absolute;
-  margin: 0 auto;
-  width: 30%;
-  top:91%;
-  left: 34%;
-}
-
-.button-container:after {
-  content: "";
-  display: block;
-  padding-bottom: 3%;
-}
-
-@media(max-width: 768px){
-
-  .ticketbtn {
-  z-index: 10;
-  position: absolute;
   width: 50%;
-  top: 50%;
-  left: 50%;
-  border-radius: 100%;
   transform: translate(-50%, -50%);
-  background-color: #d62247;
-  opacity: 0.92;
   cursor: pointer;
-}
-.button-outline {
-  position: absolute;
-  width: 15%;
-  top: 50%;
-  left: 50%;
-  border-radius: 100%;
-  transform: translate(-50%, -50%);
-  transition: all 0.25s cubic-bezier(.7, .11, .32, 2);
-}
-
-.button-outline:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-.button-container {
-  position: absolute;
-  margin: 0 auto;
-  width: 35vw;
-  top:auto;
-  left: 32%;
-}
-.button-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size:1em;
-  color: white;
-  width: 85%;
-  max-width: 100%;
-  text-align: center;
-}
+  background: #d62247;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  color: #ede0dc;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif ;
+  border: none;
 }
 
+.ticketbtn:hover {
+  text-decoration: none;
+  color: #ede0dc;
+  background: #5d2d7a;
+}
+@media (max-width: 768px){
+.ticketbtn {
+  border: none;
+  z-index: 10;
+  position: relative;
+  top:3%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: #d62247;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  color: #ede0dc;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.ticketbtn:hover {
+  color: #d62247;
+  background: #ede0dc;
+  text-decoration: none;
+}
+}
 /*SECTION*/
 #tickets{
   text-align: center;        
