@@ -203,37 +203,37 @@
                        Gravity of Thoughts
                     </a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#theme"><i class="fa fa-fw fa-cloud" aria-hidden="true"></i> Theme</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#about"><i class="fa fa-fw fa-times" aria-hidden="true"></i> About</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#speakers"><i class="fa fa-fw fa-microphone" aria-hidden="true"></i> Speakers</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#performers"><i class="fa fa-fw fa-fire" aria-hidden="true"></i> Performers</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#workshops"><i class="fa fa-fw fa-check" aria-hidden="true"></i> Workshops</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#venue"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Venue</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#partners"><i class="fa fa-fw fa-life-ring" aria-hidden="true"></i> Partners</a>
                 </li>                
-                <li>
+                <li class="mob-item">
                     <a href="#team"><i class="fa fa-fw fa-users" aria-hidden="true"></i> Team</a>
-                </li>
+                </li class="mob-item">
                 <li>
                     <a href="http://blog.tedxuniversityofmacedonia.com" id="dif"><i class="fa fa-fw fa-lightbulb-o" aria-hidden="true"></i> Blog</a>
                 </li>
-                <li>
+                <li class="mob-item">
                     <a href="#contact" class="diff" id="dif"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i> Contact</a>
                 </li>
                 <!--Social Icons-->
@@ -4724,209 +4724,44 @@
     <script src="js/menu_animation.js"></script>
     <script type="text/javascript">
   /* MAKE IT APPEAR AFTER THE 2ND DIV */
-  $(function() {
-    $(window).scroll(function() {  
-        var topHeight = window.innerHeight;
-            var scroll = $(window).scrollTop();  
-            if (scroll >= topHeight) {
-                $('.nav-bar').css('display','block');
-            }
-            if (scroll < topHeight) {
-                $('.nav-bar').css('display','none');;
-            }
-    });
-  });
+  $(function(){$(window).scroll(function(){var a=window.innerHeight,b=$(window).scrollTop();b>=a&&$(".nav-bar").css("display","block"),b<a&&$(".nav-bar").css("display","none")})});
   </script>
   <!--script for mobile menu -->
-    <script>$(document).ready(function() {   
-      var sideslider = $('[data-toggle=collapse-side]');
-      var sel = sideslider.attr('data-target');
-      var sel2 = sideslider.attr('data-target-2');
-      sideslider.click(function(event){
-      $(sel).toggleClass('in');
-      $(sel2).toggleClass('out');
-       });
-      });
+    <script>$(document).ready(function(){var a=$("[data-toggle=collapse-side]"),b=a.attr("data-target"),c=a.attr("data-target-2");a.click(function(a){$(b).toggleClass("in"),$(c).toggleClass("out")})});
     </script>
         <!--scripts for smooth scrolling-->
-    <script>$(document).ready(function(){$("a").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top},800,function(){window.location.hash=hash;});}});});$(document).ready(function(){var trigger=$('.hamburger'),overlay=$('.overlay'),isClosed=false;trigger.click(function(){hamburger_cross();});function hamburger_cross(){if(isClosed==true){overlay.hide();trigger.removeClass('is-open');trigger.addClass('is-closed');isClosed=false;}else{overlay.show();trigger.removeClass('is-closed');trigger.addClass('is-open');isClosed=true;}}$('[data-toggle="offcanvas"]').click(function(){$('#wrapper').toggleClass('toggled');});});</script>
+    <script>$(document).ready(function(){$("a").on("click",function(a){if(""!==this.hash){a.preventDefault();var b=this.hash;$("html, body").animate({scrollTop:$(b).offset().top},800,function(){window.location.hash=b})}})}),$(document).ready(function(){function d(){1==c?(a.removeClass("is-open"),a.addClass("is-closed"),c=!1):(a.removeClass("is-closed"),a.addClass("is-open"),c=!0)}var a=$(".hamburger"),b=$(".overlay"),c=!1;a.click(function(){d(),b.toggle()}),$('[data-toggle="offcanvas"]').click(function(){$("#wrapper").toggleClass("toggled")}),$(document).ready(function(){$(".mob-item").click(function(){$("#wrapper").toggleClass("toggled"),$(".overlay").hide(),$(".hamburger").addClass("is-closed")})})});</script>
+    <script>$(document).ready(function(){$(".mob-item").click(function(){$("#wrapper").toggleClass("toggled"),$(".overlay").hide(),$(".hamburger").addClass("is-closed")})});</script>
     <script src="js/snap.svg-min.js"></script>
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script> <!--Tween Max -->
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script>var config={easing:"hustle",reset:!0,delay:"onload",vFactor:.9,mobile:!1};window.sr=ScrollReveal().reveal(".thumb");</script>    
     <script>
-        var config = {
-        easing: 'hustle',
-        reset:  true,
-        delay:  'onload',
-        vFactor: 0.90,
-        mobile: false
-        }
-        window.sr = ScrollReveal().reveal('.thumb');
-    </script>
-    
-    
-    <script>
-      $('.map-container')
-        .click(function(){
-          $(this).find('iframe').addClass('clicked')})
-          .mouseleave(function(){
-          $(this).find('iframe').removeClass('clicked')});
+      $(".map-container").click(function(){$(this).find("iframe").addClass("clicked")}).mouseleave(function(){$(this).find("iframe").removeClass("clicked")});
     </script>
 
     <script>
-      $(allInView);
-      $(window).scroll(allInView);
-
-function isScrolledIntoView(elem) {
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    elemTop -= 180;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
-function allInView() {
-    
-    if (isScrolledIntoView($("#Theme"))){
-      TweenLite.to("#_x33_9", 2, {y:200});
-TweenLite.to("#_x33_8", 2, {y:200});
-TweenLite.to("#_x33_7", 1, {y:120});
-TweenLite.to("#_x33_6", 3, {y:130});
-TweenLite.to("#_x33_5", 1, {y:120});
-TweenLite.to("#_x33_4", 0, {y:230});
-TweenLite.to("#_x33_3", 1, {y:230});
-TweenLite.to("#_x33_2", 2, {y:230});
-TweenLite.to("#_x33_1", 1, {y:200});
-TweenLite.to("#_x33_0", 3, {y:150});
-TweenLite.to("#_x32_9", 1, {y:180});
-TweenLite.to("#_x32_8", 1, {y:170});
-TweenLite.to("#_x32_7", 3, {y:150});
-TweenLite.to("#_x32_6", 1, {y:150});
-TweenLite.to("#_x32_5", 0.5, {y:130});
-TweenLite.to("#_x32_4", 1, {y:130});
-TweenLite.to("#_x32_3", 2, {y:150});
-TweenLite.to("#_x32_2", 3, {y:150});
-TweenLite.to("#_x32_1", 4, {y:180});
-TweenLite.to("#_x32_0", 1, {y:200});
-TweenLite.to("#_x31_9", 2, {y:180});
-TweenLite.to("#_x31_8", 1, {y:180});
-TweenLite.to("#_x31_7", 2, {y:180});
-TweenLite.to("#_x31_6", 2, {y:180});
-TweenLite.to("#_x31_5", 1, {y:180});
-TweenLite.to("#_x31_4", 2, {y:170});
-TweenLite.to("#_x31_3", 1, {y:180});
-TweenLite.to("#_x31_2", 2, {y:180});
-TweenLite.to("#_x31_1", 1, {y:200});
-TweenLite.to("#_x31_0", 3, {y:200});
-TweenLite.to("#_x39_", 1, {y:200});
-TweenLite.to("#_x38_", 4, {y:200});
-TweenLite.to("#_x37_", 1, {y:230});
-TweenLite.to("#_x36_", 2, {y:250});
-TweenLite.to("#_x35_", 1.5, {y:250});
-TweenLite.to("#_x34_", 3, {y:230});
-TweenLite.to("#_x33_", 3, {y:230});
-TweenLite.to("#_x32_", 1, {y:280});
-TweenLite.to("#_x31_", 2, {y:200});
-
-};
-};
+      function isScrolledIntoView(a){var b=$(window).scrollTop(),c=b+$(window).height(),d=$(a).offset().top;d-=180;var e=d+$(a).height();return e<=c&&d>=b}function allInView(){isScrolledIntoView($("#Theme"))&&(TweenLite.to("#_x33_9",2,{y:200}),TweenLite.to("#_x33_8",2,{y:200}),TweenLite.to("#_x33_7",1,{y:120}),TweenLite.to("#_x33_6",3,{y:130}),TweenLite.to("#_x33_5",1,{y:120}),TweenLite.to("#_x33_4",0,{y:230}),TweenLite.to("#_x33_3",1,{y:230}),TweenLite.to("#_x33_2",2,{y:230}),TweenLite.to("#_x33_1",1,{y:200}),TweenLite.to("#_x33_0",3,{y:150}),TweenLite.to("#_x32_9",1,{y:180}),TweenLite.to("#_x32_8",1,{y:170}),TweenLite.to("#_x32_7",3,{y:150}),TweenLite.to("#_x32_6",1,{y:150}),TweenLite.to("#_x32_5",.5,{y:130}),TweenLite.to("#_x32_4",1,{y:130}),TweenLite.to("#_x32_3",2,{y:150}),TweenLite.to("#_x32_2",3,{y:150}),TweenLite.to("#_x32_1",4,{y:180}),TweenLite.to("#_x32_0",1,{y:200}),TweenLite.to("#_x31_9",2,{y:180}),TweenLite.to("#_x31_8",1,{y:180}),TweenLite.to("#_x31_7",2,{y:180}),TweenLite.to("#_x31_6",2,{y:180}),TweenLite.to("#_x31_5",1,{y:180}),TweenLite.to("#_x31_4",2,{y:170}),TweenLite.to("#_x31_3",1,{y:180}),TweenLite.to("#_x31_2",2,{y:180}),TweenLite.to("#_x31_1",1,{y:200}),TweenLite.to("#_x31_0",3,{y:200}),TweenLite.to("#_x39_",1,{y:200}),TweenLite.to("#_x38_",4,{y:200}),TweenLite.to("#_x37_",1,{y:230}),TweenLite.to("#_x36_",2,{y:250}),TweenLite.to("#_x35_",1.5,{y:250}),TweenLite.to("#_x34_",3,{y:230}),TweenLite.to("#_x33_",3,{y:230}),TweenLite.to("#_x32_",1,{y:280}),TweenLite.to("#_x31_",2,{y:200}))}$(allInView),$(window).scroll(allInView);
   </script>
   <script type="text/javascript">
-          $('.speakfig').on('mouseover', function(e){
-            var colors = ["#5d2d7a", "#d62247", "#00a79d"];
-          var random_color = colors[Math.floor(Math.random() * colors.length)];
-          $(".speakfig").css("background-color", random_color);
-          });
-          
-          $('.speakfig').on('mouseout', function(e){
-            var colors = ["#5d2d7a", "#d62247", "#00a79d"];
-          var random_color = colors[Math.floor(Math.random() * colors.length)];
-          $(".speakfig").css("background-color", random_color);
-          });
+          $(".speakfig").on("mouseover",function(a){var b=["#5d2d7a","#d62247","#00a79d"],c=b[Math.floor(Math.random()*b.length)];$(".speakfig").css("background-color",c)}),$(".speakfig").on("mouseout",function(a){var b=["#5d2d7a","#d62247","#00a79d"],c=b[Math.floor(Math.random()*b.length)];$(".speakfig").css("background-color",c)});
   </script>   
   <script src="js/main.js"></script>
   <script src="js/kota.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js'></script>
   <script src="js/partners.js"></script>
-  <script>
-    if (true){
-      $('#allbtn').trigger('click');
-    }
-  </script>
-  <script>
-
-var tmax_opts = {
-  delay: 0.4854101966249,
-  repeat: -1,
-  repeatDelay: 0.5,
-  yoyo: true
-};
-
-var tmax_tl           = new TimelineMax(tmax_opts),
-    polylion_shapes   = $('svg.polylion > g polygon'),
-    polylion_stagger  = 0.00475,
-    polylion_duration = 1.5;
-
-var polylion_staggerFrom = {
-  scale: 0,
-  opacity: 0,
-  transformOrigin: 'center center',
-};
-
-var polylion_staggerTo = {
-  opacity: 1,
-  scale: 1,
-  ease: Elastic.easeInOut
-};
-
-tmax_tl.staggerFromTo(polylion_shapes, polylion_duration, polylion_staggerFrom, polylion_staggerTo, polylion_stagger, 0);</script>
+  <script>if (true){$('#allbtn').trigger('click</script>
+  <script>var tmax_opts={delay:.4854101966249,repeat:-1,repeatDelay:.5,yoyo:!0},tmax_tl=new TimelineMax(tmax_opts),polylion_shapes=$("svg.polylion > g polygon"),polylion_stagger=.00475,polylion_duration=1.5,polylion_staggerFrom={scale:0,opacity:0,transformOrigin:"center center"},polylion_staggerTo={opacity:1,scale:1,ease:Elastic.easeInOut};tmax_tl.staggerFromTo(polylion_shapes,polylion_duration,polylion_staggerFrom,polylion_staggerTo,polylion_stagger,0);</script>
   <script src="js/classie.js"></script>
   <script src="js/svgLoader.js"></script>
-  <script>
-      (function() {
-        var pageWrap = document.getElementById( 'pagewrap' ),
-          pages = [].slice.call( pageWrap.querySelectorAll( 'div.team' ) ),
-          currentPage = 0,
-          triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-          loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 300, easingIn : mina.easeinout } );
-
-        function init() {
-          triggerLoading.forEach( function( trigger ) {
-            trigger.addEventListener( 'click', function( ev ) {
-                        $("#out").toggle();
-              ev.preventDefault();
-              loader.show();
-              // after some time hide loader
-              setTimeout( function() {
-                loader.hide();
-
-                classie.removeClass( pages[ currentPage ], 'show' );
-                // update..
-                currentPage = currentPage ? 0 : 1;
-                classie.addClass( pages[ currentPage ], 'show' );
-
-              }, 2000 );
-            } );
-           } ); 
-          } 
-          init();
-       })();
+  <script>function(){function f(){d.forEach(function(a){a.addEventListener("click",function(a){$("#out").toggle(),a.preventDefault(),e.show(),setTimeout(function(){e.hide(),classie.removeClass(b[c],"show"),c=c?0:1,classie.addClass(b[c],"show")},2e3)})})}var a=document.getElementById("pagewrap"),b=[].slice.call(a.querySelectorAll("div.team")),c=0,d=[].slice.call(a.querySelectorAll("a.pageload-link")),e=new SVGLoader(document.getElementById("loader"),{speedIn:300,easingIn:mina.easeinout});f()}();
     </script>
      <!--reCaptcha script-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script>$(function(){$('#contact-form').validator();$('#contact-form').on('submit',function(e){if(!e.isDefaultPrevented()){var url="contact.php";$.ajax({type:"POST",url:url,data:$(this).serialize(),success:function(data){var messageAlert='alert-'+data.type;var messageText=data.message;var alertBox='<div class="alert '+messageAlert+' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+messageText+'</div>';if(messageAlert&&messageText){$('#contact-form').find('.messages').html(alertBox);$('#contact-form')[0].reset();}}});return false;}})});</script>
 
-    
     <!-- to reload and go to top -->
-     <script>
-         window.onload = function() {
- setTimeout (function () {
-  scrollTo(0,0);
- }, 1); //100ms for example
-}
-    </script> 
+     <script>window.onload=function(){setTimeout(function(){scrollTo(0,0)},1)};</script> 
   </body>
 </html>
