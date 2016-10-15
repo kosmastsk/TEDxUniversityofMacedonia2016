@@ -2456,6 +2456,13 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
         background-color: #d62247;
         border: 2px solid #d62247;
       }
+      .soldout{
+        margin-top: 4%;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #d3d3d3;
+        border: 2px solid #d3d3d3;
+      }
       .book:hover{
         font-weight: bold;
         color: #d62247;
