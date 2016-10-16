@@ -1732,11 +1732,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
   color: #000;
   text-align: center;
 }
+/*
 @media (min-width:362px) and (max-width:500px){
   .onelinename{
       margin-bottom:38%; 
   }
-}
+}*/
 @media (max-width: 768px){
   .speakname{
   font-size: 1em;
