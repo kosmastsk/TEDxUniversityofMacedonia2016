@@ -2489,7 +2489,7 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
       #livestreaming:hover .details{
         display: block;
       }
-
+/*
 
 #hidden-performers{
     height:auto;
@@ -2498,11 +2498,9 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
     width: 100%;
     margin-bottom: 3%;
 }
-
+*/
 .perf{
-     padding: 0;
-   
-    
+     padding: 0;    
 }
 .perf:hover{
     -webkit-transform: scale(1.15);
