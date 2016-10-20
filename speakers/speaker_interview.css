@@ -5,6 +5,11 @@
   margin: 0 auto 0em;
     padding: 0 !important;
 }
+#bg{
+ background-image: url(../images/balls.png);
+ background-repeat: no-repeat;
+ background-position: center right;
+}
 .footer, .push {
    height: 0em;
 }
