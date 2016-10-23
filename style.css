@@ -2561,19 +2561,25 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
 }
 
 #hidden-workshops{
-  background-color: rgba(73, 76, 76,0.9);
+  background-color: rgba(255, 255, 255,0.9);
 
 }
 @media (min-width: 768px){
-  #hidden-workshops{
+  #vwork{
   background-image: url("images/vertical-line.png");
   background-repeat:  repeat-y;
   background-position: center;
+ margin-top: 10%;
+      margin-bottom: 2%;
+     
+     
 }
 }
 .workshopz{
   max-height: 200px;
   margin: 15px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
 
 }
 p.grspanw{

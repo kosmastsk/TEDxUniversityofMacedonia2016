@@ -78,9 +78,9 @@
     }
     </style>
 
-   <!---- <div class="loading">
+   <div class="loading">
       <embed class="center" src="images/loadingtest.svg"/>
-    </div>    ---->
+    </div>   
 
     <style>/*Change the mobile and desktop menu in specific pixels */
       @media (max-width: 907px){
@@ -1723,6 +1723,7 @@
  <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
           <h1 class="title hidden-xs">Workshops</h1>
         </div>
+          <div id="vwork">
         <div class="row">
       <div class="col-xs-5 col-sm-2 ">
           <img src="images/workshops/minimalicquantum.png" class="img-responsive workshopz">
@@ -1778,10 +1779,12 @@
           <p class="grspanw"> More to announced...</p>
 </div> 
 <div class="col-xs-5 col-sm-2">
+    <div class="imghvr-slide-up thumb">
           <img src="speakers/tba.png" class="img-responsive workshopz">
           </div>
-      </div>
-
+    </div>
+      
+</div>
 
 </div>
 
@@ -5050,7 +5053,7 @@
   <script>$(function(){$('#contact-form').validator();$('#contact-form').on('submit',function(e){if(!e.isDefaultPrevented()){var url="contact.php";$.ajax({type:"POST",url:url,data:$(this).serialize(),success:function(data){var messageAlert='alert-'+data.type;var messageText=data.message;var alertBox='<div class="alert '+messageAlert+' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+messageText+'</div>';if(messageAlert&&messageText){$('#contact-form').find('.messages').html(alertBox);$('#contact-form')[0].reset();}}});return false;}})});</script>
 
     <!-- to reload and go to top -->
-   <!-- <script>window.onload=function(){setTimeout(function(){scrollTo(0,0)},1)};</script>  -->
+    <script>window.onload=function(){setTimeout(function(){scrollTo(0,0)},1)};</script>  
   
   </body>
 </html>
