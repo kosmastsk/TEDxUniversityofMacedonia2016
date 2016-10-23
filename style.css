@@ -2569,8 +2569,8 @@ box-shadow: 62px 7px 58px -2px rgba(0,0,0,0.09);
   background-image: url("images/vertical-line.png");
   background-repeat:  repeat-y;
   background-position: center;
- margin-top: 10%;
-      margin-bottom: 2%;
+  margin-top: 10%;
+  margin-bottom: 2%;
      
      
 }
@@ -2588,3 +2588,11 @@ p.grspanw{
     font-weight: 600;
     padding-top: 15%;
 } 
+@media(max-width: 768px){
+  p.grspanw{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6em;
+    font-weight: 600;
+    padding-top: 15%;
+  }
+}
