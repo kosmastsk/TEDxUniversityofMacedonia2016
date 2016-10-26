@@ -12,7 +12,7 @@
     <meta name="author" content="TEDxUniversityofMacedonia">
     <meta name="keywords" content="TEDx, TEDxUniversityofMacedonia, University of Macedonia, Thessaloniki, Gravity of Thoughts, NOESIS, talks, workshops">
       <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-      <META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2007 11:12:01 GMT">
+      <META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2008 11:12:01 GMT">
     <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
 
     <!--OG TITLES -->
@@ -1218,7 +1218,15 @@
 
         </div>   <!-- / #theme -->
 
-      
+        <!-- PROMO VIDEO-->
+        <div id="promovideo">
+            <div class="row hidden-xs">
+                <div class="col-sm-12 promo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_OIvW7pH2Hk" frameborder="0" allowfullscreen></iframe>
+                    <span id="lights"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="on">on</span> <span class="off">off</span> the lights</span>
+                </div>
+            </div>
+        </div>
 
       <!-- ABOUT SECTION ##################################################################-->
       <div id="about">
@@ -4995,6 +5003,7 @@
     <script>
       function isScrolledIntoView(a){var b=$(window).scrollTop(),c=b+$(window).height(),d=$(a).offset().top;d-=180;var e=d+$(a).height();return e<=c&&d>=b}function allInView(){isScrolledIntoView($("#Theme"))&&(TweenLite.to("#_x33_9",2,{y:200}),TweenLite.to("#_x33_8",2,{y:200}),TweenLite.to("#_x33_7",1,{y:120}),TweenLite.to("#_x33_6",3,{y:130}),TweenLite.to("#_x33_5",1,{y:120}),TweenLite.to("#_x33_4",0,{y:230}),TweenLite.to("#_x33_3",1,{y:230}),TweenLite.to("#_x33_2",2,{y:230}),TweenLite.to("#_x33_1",1,{y:200}),TweenLite.to("#_x33_0",3,{y:150}),TweenLite.to("#_x32_9",1,{y:180}),TweenLite.to("#_x32_8",1,{y:170}),TweenLite.to("#_x32_7",3,{y:150}),TweenLite.to("#_x32_6",1,{y:150}),TweenLite.to("#_x32_5",.5,{y:130}),TweenLite.to("#_x32_4",1,{y:130}),TweenLite.to("#_x32_3",2,{y:150}),TweenLite.to("#_x32_2",3,{y:150}),TweenLite.to("#_x32_1",4,{y:180}),TweenLite.to("#_x32_0",1,{y:200}),TweenLite.to("#_x31_9",2,{y:180}),TweenLite.to("#_x31_8",1,{y:180}),TweenLite.to("#_x31_7",2,{y:180}),TweenLite.to("#_x31_6",2,{y:180}),TweenLite.to("#_x31_5",1,{y:180}),TweenLite.to("#_x31_4",2,{y:170}),TweenLite.to("#_x31_3",1,{y:180}),TweenLite.to("#_x31_2",2,{y:180}),TweenLite.to("#_x31_1",1,{y:200}),TweenLite.to("#_x31_0",3,{y:200}),TweenLite.to("#_x39_",1,{y:200}),TweenLite.to("#_x38_",4,{y:200}),TweenLite.to("#_x37_",1,{y:230}),TweenLite.to("#_x36_",2,{y:250}),TweenLite.to("#_x35_",1.5,{y:250}),TweenLite.to("#_x34_",3,{y:230}),TweenLite.to("#_x33_",3,{y:230}),TweenLite.to("#_x32_",1,{y:280}),TweenLite.to("#_x31_",2,{y:200}))}$(allInView),$(window).scroll(allInView);
   </script>
+    <script type="text/javascript">$("#lights").click(function(){$(".on").toggle(),$(".off").toggle(),$(".promo").toggleClass("day")});</script>
   <script type="text/javascript">
           $(".speakfig").on("mouseover",function(a){var b=["#5d2d7a","#d62247","#00a79d"],c=b[Math.floor(Math.random()*b.length)];$(".speakfig").css("background-color",c)}),$(".speakfig").on("mouseout",function(a){var b=["#5d2d7a","#d62247","#00a79d"],c=b[Math.floor(Math.random()*b.length)];$(".speakfig").css("background-color",c)});
   </script>   
