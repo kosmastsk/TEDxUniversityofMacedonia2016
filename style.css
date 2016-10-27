@@ -132,7 +132,7 @@ body span{
   height: 45px;
   position: absolute;
   left:45%;
-  top:25%;
+  top:51%;
   padding-top: 0.6%;
   opacity: 0.8;
   z-index: 2;
@@ -251,7 +251,7 @@ body span{
     padding: 0;
 }
 .brain{
-    height:60vh;
+    height:100vh;
   /* background-image: url(images/test.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -260,11 +260,11 @@ body span{
     margin: -15px;*/
        
 }
-.brain #stable{
-  padding-top: 6%;
-  padding-left: 15%;
-  height: 85%;
-  width: 85%;
+ #stable{
+  margin-top:6%;
+  margin-left:-6%;
+  height: 100%;
+  width: 100%;
 }
 .when{
   height: 40vh;
