@@ -2622,3 +2622,39 @@ p.grspanw{
   background-color: rgba(0,0,0,0.05);
   color:#000000;
 }
+
+/*AGENDA*/
+.morning{
+  text-align: center;
+  font-size: 1.05em;
+  font-weight: bold;
+  padding-bottom:2%;
+}
+.session-title{
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.session-time{
+  font-style: italic;
+}
+.session-sp{
+  font-weight: bold;  
+  margin:0;
+  font-size: 0.95em;
+}
+.what{
+  font-size:0.9em;
+}
+.ses1{
+  color:#5d2d7a;
+  padding-left: 3%;
+  border-right:1px solid #999999;
+}
+.ses2{
+  color:#00a79d;
+  border-right:1px solid #999999;
+}
+.ses3{
+  color:#d62247;
+  padding-right: 3%;
+}
