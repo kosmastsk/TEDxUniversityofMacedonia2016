@@ -2658,3 +2658,8 @@ p.grspanw{
   color:#d62247;
   padding-right: 3%;
 }
+@media (max-width: 768px){
+  #hidden-program{
+    display: none;
+  }
+}
