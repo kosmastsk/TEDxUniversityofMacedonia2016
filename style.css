@@ -132,7 +132,7 @@ body span{
   height: 45px;
   position: absolute;
   left:45%;
-  top:51%;
+  top:45%;
   padding-top: 0.6%;
   opacity: 0.8;
   z-index: 2;
@@ -271,6 +271,7 @@ body span{
   margin-top: 12%;
   width: 35%;
   height: auto;
+  top:-6%;
 }
 .when{
   height: 40vh;
@@ -377,9 +378,9 @@ map-container {
 }
 #prwto{
 position: relative;
-background-image: url(images/cork-wallet.png);
+   /* background-image: url(images/cork-wallet.png);
     background-repeat: repeat-x repeat-y;
-    background-position: center;
+    background-position: center; */
     overflow: hidden;
 }
 
