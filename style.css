@@ -82,7 +82,7 @@ body span{
 }
 .fr{
   position: absolute;
-  top:30%;
+  top:51%;
   left:45%;
   width: 11%;
   height: auto;
@@ -90,7 +90,7 @@ body span{
 }
 .extra{
   position: absolute;
-  top:30%;
+  top:51%;
   left:45%;
   opacity: 0;
 }
