@@ -267,6 +267,7 @@ body span{
   width: 100%;
 }
 .png{
+  position: relative;
   margin-top: 12%;
   width: 35%;
   height: auto;

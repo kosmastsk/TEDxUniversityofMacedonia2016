@@ -3,44 +3,46 @@ $(document).ready(function() {
         $("#tabs").fadeOut(), $("#stable").removeClass("zIndex2"), $("clickMe").removeClass("zIndex2"), $(".fr").addClass("zIndex2"), $("#clickMe").velocity("fadeOut", {
             duration: 500
         }), $("#clickMe").hide(), $("#fr7").velocity({
-            top: "+66%",
+            top: "+68%",
             left: "+80%",
             opacity: 1
+        }, 2500), $("#png").velocity({
+            left: "-10%"
         }, 2500), $("#fr6").velocity({
             top: "53%",
             left: "85%",
             opacity: 1
         }, 2500), $("#fr5").velocity({
             top: "40%",
-            left: "86%",
+            left: "88%",
             opacity: 1
         }, 2500), $("#fr4").velocity({
             top: "27%",
             left: "85%",
             opacity: 1
         }, 2500), $("#fr3").animate({
-            top: "16%",
-            left: "80%",
+            top: "14%",
+            left: "78%",
             opacity: 1
         }, 2500), $("#fr1").animate({
-            top: "10%",
-            left: "+15%",
+            top: "16%",
+            left: "+65%",
             opacity: 1
         }, 2500), $("#fr2").velocity({
-            top: "20%",
-            left: "+10%",
+            top: "27%",
+            left: "+70%",
             opacity: 1
         }, 2500), $("#fr8").velocity({
-            top: "30%",
-            left: "7.5%",
+            top: "40%",
+            left: "73%",
             opacity: 1
         }, 2500), $("#fr10").velocity({
-            top: "40%",
-            left: "+10%",
+            top: "53%",
+            left: "+70%",
             opacity: 1
         }, 2500), $("#fr9").velocity({
-            top: "50%",
-            left: "+15%",
+            top: "65%",
+            left: "+65%",
             opacity: 1
         }, 2500), $("#1-1").velocity({
             top: "20%",
