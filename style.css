@@ -2619,7 +2619,7 @@ p.grspanw{
   cursor: pointer;
 }
 .day{
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(250,250,250,1);
   color:#000000;
 }
 
