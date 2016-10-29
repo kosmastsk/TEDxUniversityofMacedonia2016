@@ -2663,7 +2663,11 @@ p.grspanw{
     overflow-y: visible;
     padding-bottom: 5%;
     height: auto;
-   
+}
+@media (max-width: 768px){
+  .ses2{
+    border:none;
+  }
 }
 .ses3{
   color:#d62247;
