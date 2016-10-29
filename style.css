@@ -270,7 +270,8 @@ body span{
   position: relative;
   margin-top: 12%;
   width: 35%;
-  height: auto;
+  height: 40%σ;
+  
   top:-6%;
 }
 .when{
@@ -2625,20 +2626,26 @@ p.grspanw{
 
 /*AGENDA*/
 .morning{
+    font-family: 'Lato', sans-serif ;
   text-align: center;
   font-size: 1.05em;
   font-weight: bold;
   padding-bottom:2%;
 }
 .session-title{
-  font-weight: bold;
-  font-size: 1.1em;
+    font-family: 'Lato', sans-serif ;
+  font-weight: 400;
+  font-size: 1.6em;
+   padding-bottom: 2%;
+   
 }
 .session-time{
+    
   font-style: italic;
 }
 .session-sp{
-  font-weight: bold;  
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 600;  
   margin:0;
   font-size: 0.95em;
 }
@@ -2653,6 +2660,10 @@ p.grspanw{
 .ses2{
   color:#00a79d;
   border-right:1px solid #999999;
+    overflow-y: visible;
+    padding-bottom: 5%;
+    height: auto;
+   
 }
 .ses3{
   color:#d62247;
@@ -2662,4 +2673,9 @@ p.grspanw{
   #hidden-program{
     display: none;
   }
+}
+#prog{
+    
+    margin-left: 7%;
+    margin-right: 7%
 }
