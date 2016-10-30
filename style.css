@@ -88,12 +88,19 @@ body span{
   height: auto;
   opacity: 0;
 }
+.fr:hover{
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari */
+  transform: scale(1.5); 
+    
+}
 .extra{
   position: absolute;
   top:51%;
   left:45%;
   opacity: 0;
 }
+
 .medium.extra  {
   width: 5%;
   height: auto;
@@ -2294,6 +2301,13 @@ font-size: 0.75em;
   right: 0%;
   bottom: 0;
   width: 25%;
+  height: auto;    
+}
+.ourlogo3{
+  position: absolute;
+  left: 2%;
+  bottom: 0;;
+  width: 40%;
   height: auto;    
 }
 
