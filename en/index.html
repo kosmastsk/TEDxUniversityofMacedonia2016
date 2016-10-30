@@ -273,7 +273,9 @@
                 <img src="../images/index.png" class="img-responsive center-block" alt="TEDxUniversityofMacedonia" style="width:45%;">
                 <img src="../menu/stablepng.png" class="img-responsive center-block" alt="Gravity of Thoughts logo">
                 <img src="../menu/Untitled-1.png" class="img-responsive center-block" alt="5th of November at NOESIS">
-                
+                <a href="https://www.youtube.com/">
+                    <button class="livebtn"><i class="fa fa-circle flash" aria-hidden="true"></i> LIVE NOW!<br><p class="clicktowatch">click to watch</p></button>
+                </a>
               </div><!-- / Home mobile-->
 
             <!-- Home sm md lg -->
@@ -282,7 +284,19 @@
                 <div class="container-fluid vh">
                   <div id="prwto">
                     <img src="../images/index.png" class="img-responsive ourlogo2">
+                     <!-- Live now button! -->
+                    <a>
+                        <button class="livebtn"><i class="fa fa-circle flash" aria-hidden="true"></i> LIVE NOW!<br><p class="clicktowatch">click to watch</p></button>
+                    </a>
 
+                    <div class="left-slide">
+
+                        <iframe id="frame" src="https://www.youtube.com/embed/luO7Q7NZW_8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+
+                        <a href="#" onClick="toggleVideo('hide');">
+                            <span class="return">επιστροφή στην αρχική σελίδα <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
          
                       
                     <div class="container-fluid brain">
@@ -4548,6 +4562,8 @@
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
      <script>var config={easing:"hustle",reset:!0,delay:"onload",vFactor:.9,mobile:!1};window.sr=ScrollReveal().reveal(".thumb");</script>    
     <script>$(".map-container").click(function(){$(this).find("iframe").addClass("clicked")}).mouseleave(function(){$(this).find("iframe").removeClass("clicked")});</script>
+        <!--LIVE BTN JS-->
+    <script type="text/javascript">$(".livebtn").click(function(){$(".left-slide").show(500),$(".left-slide").velocity({left:"0"},1e3)}),$(".return").click(function(){$(".left-slide").velocity({left:"-=100%"},1500),$(".left-slide").hide(1500);var a=$("#frame").attr("src");$("#frame").attr("src",""),$("#frame").attr("src",a)});</script>
      <!-- EDWWWW EINAI TO SCRIPT GIA TO HOVER STIS MPALEEEES -->
     <script type="text/javascript">var radius;$(".eff").mouseover(function(){var a=["#5d2d7a","#d62247","#00a79d"],b=a[Math.floor(Math.random()*a.length)];$(this).attr("fill");$(this).css("fill",b),radius=this.getAttribute("r");var d=1.6*radius;this.setAttribute("r",d)}),$(".eff").mouseout(function(){$(this).css("fill","#CC3333"),this.setAttribute("r",radius)});</script>
     <script>
