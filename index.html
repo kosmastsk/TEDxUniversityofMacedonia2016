@@ -281,7 +281,9 @@
                  <img src="images/index.png" class="img-responsive center-block" alt="TEDxUniversityofMacedonia" style="width:45%;"> 
                 <img src="menu/stablepng.png" class="img-responsive center-block" alt="Gravity of Thoughts logo">
                 <img src="menu/Untitled-1.png" class="img-responsive center-block" alt="5th of November at NOESIS">
-                
+                <a href="https://www.youtube.com/">
+                    <button class="livebtn"><i class="fa fa-circle flash" aria-hidden="true"></i> LIVE NOW!<br><p class="clicktowatch">click to watch</p></button>
+                </a>
               </div><!-- / Home mobile-->
 
               <!-- Home sm md lg -->
@@ -290,7 +292,19 @@
                 <div class="container-fluid vh">
                   <div id="prwto">
                     <img src="images/index.png" class="img-responsive ourlogo2">
+                    <!-- Live now button! -->
+                    <a>
+                        <button class="livebtn"><i class="fa fa-circle flash" aria-hidden="true"></i> LIVE NOW!<br><p class="clicktowatch">click to watch</p></button>
+                    </a>
 
+                    <div class="left-slide">
+
+                        <iframe id="frame" src="https://www.youtube.com/embed/luO7Q7NZW_8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+
+                        <a href="#" onClick="toggleVideo('hide');">
+                            <span class="return">επιστροφή στην αρχική σελίδα <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
          
                       
                     <div class="container-fluid brain">
@@ -4771,6 +4785,8 @@
     <script>
       $(".map-container").click(function(){$(this).find("iframe").addClass("clicked")}).mouseleave(function(){$(this).find("iframe").removeClass("clicked")});
     </script>
+    <!--LIVE BTN JS-->
+    <script type="text/javascript">$(".livebtn").click(function(){$(".left-slide").show(500),$(".left-slide").velocity({left:"0"},1e3)}),$(".return").click(function(){$(".left-slide").velocity({left:"-=100%"},1500),$(".left-slide").hide(1500);var a=$("#frame").attr("src");$("#frame").attr("src",""),$("#frame").attr("src",a)});</script>
     <!-- EDWWWW EINAI TO SCRIPT GIA TO HOVER STIS MPALEEEES -->
     <script type="text/javascript">var radius;$(".eff").mouseover(function(){var a=["#5d2d7a","#d62247","#00a79d"],b=a[Math.floor(Math.random()*a.length)];$(this).attr("fill");$(this).css("fill",b),radius=this.getAttribute("r");var d=1.6*radius;this.setAttribute("r",d)}),$(".eff").mouseout(function(){$(this).css("fill","#CC3333"),this.setAttribute("r",radius)});</script>
     <script>function isScrolledIntoView(a){var b=$(window).scrollTop(),c=b+$(window).height(),d=$(a).offset().top;d-=180;var e=d+$(a).height();return e<=c&&d>=b}function allInView(){isScrolledIntoView($("#Theme"))&&(TweenLite.to("#_x33_9",2,{y:200}),TweenLite.to("#_x33_8",2,{y:200}),TweenLite.to("#_x33_7",1,{y:120}),TweenLite.to("#_x33_6",3,{y:130}),TweenLite.to("#_x33_5",1,{y:120}),TweenLite.to("#_x33_4",0,{y:230}),TweenLite.to("#_x33_3",1,{y:230}),TweenLite.to("#_x33_2",2,{y:230}),TweenLite.to("#_x33_1",1,{y:200}),TweenLite.to("#_x33_0",3,{y:150}),TweenLite.to("#_x32_9",1,{y:180}),TweenLite.to("#_x32_8",1,{y:170}),TweenLite.to("#_x32_7",3,{y:150}),TweenLite.to("#_x32_6",1,{y:150}),TweenLite.to("#_x32_5",.5,{y:130}),TweenLite.to("#_x32_4",1,{y:130}),TweenLite.to("#_x32_3",2,{y:150}),TweenLite.to("#_x32_2",3,{y:150}),TweenLite.to("#_x32_1",4,{y:180}),TweenLite.to("#_x32_0",1,{y:200}),TweenLite.to("#_x31_9",2,{y:180}),TweenLite.to("#_x31_8",1,{y:180}),TweenLite.to("#_x31_7",2,{y:180}),TweenLite.to("#_x31_6",2,{y:180}),TweenLite.to("#_x31_5",1,{y:180}),TweenLite.to("#_x31_4",2,{y:170}),TweenLite.to("#_x31_3",1,{y:180}),TweenLite.to("#_x31_2",2,{y:180}),TweenLite.to("#_x31_1",1,{y:200}),TweenLite.to("#_x31_0",3,{y:200}),TweenLite.to("#_x39_",1,{y:200}),TweenLite.to("#_x38_",4,{y:200}),TweenLite.to("#_x37_",1,{y:230}),TweenLite.to("#_x36_",2,{y:250}),TweenLite.to("#_x35_",1.5,{y:250}),TweenLite.to("#_x34_",3,{y:230}),TweenLite.to("#_x33_",3,{y:230}),TweenLite.to("#_x32_",1,{y:280}),TweenLite.to("#_x31_",2,{y:200}))}$(allInView),$(window).scroll(allInView);</script>
