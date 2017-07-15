@@ -4,4 +4,4 @@ Official website for TEDxUniversityofMacedonia 2016
 Find out more: http://www.tedxuniversityofmacedonia.com
 
 Made with <3 for TEDxUoM2016
-by @kostakos14 and me
+by <a href="https://github.com/konsalex">@konsalex</a> and me
